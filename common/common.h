@@ -1,5 +1,5 @@
 #include <sys/time.h>
-#include <cuda_run_time.h>
+#include <cuda_runtime.h>
 #include <stdio.h>
 
 cudaError_t ErrorCheck(cudaError_t status,

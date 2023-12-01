@@ -1,5 +1,5 @@
 #include <cuda_runtime.h>
-#include "common/common.h"
+#include "../common/common.h"
 #include <stdio.h>
 
 __global__ void sumArraysOnGPU(int *A, int *B, int *C, const int N)

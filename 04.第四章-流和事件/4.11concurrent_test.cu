@@ -1,5 +1,5 @@
 #include <cuda_runtime.h>
-#include "common/common.h"
+#include "../common/common.h"
 #include <stdio.h>
 
 int main(int argc, char **argv)

@@ -1,4 +1,4 @@
-#include "common/common.h"
+#include "../common/common.h"
 #include <cuda_runtime.h>
 #include <stdio.h>
 __device__ float factor = 0;

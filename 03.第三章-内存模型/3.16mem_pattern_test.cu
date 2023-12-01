@@ -1,5 +1,5 @@
 #include <cuda_runtime.h>
-#include "common/common.h"
+#include "../common/common.h"
 #include <stdio.h>
 
 __global__ void readOffset(float *A, float *B, float *C, const float n, float offset)
